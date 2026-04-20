@@ -1,0 +1,4 @@
+trainer_type: gmd_se3gnn
+call_mode: subprocess
+train_command: "python train.py --config {config} --data {data} --output {output}"
+export_command: "python export.py --model {model} --output {output}"

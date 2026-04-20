@@ -1,0 +1,10 @@
+max_iterations: 10
+max_candidates_per_iteration: 50
+candidate_dir: active_learning_candidates
+labeled_data_dir: labeled_data
+model_registry_dir: models
+workflow_state_path: workflow_state.json
+dry_run: true
+md:
+  n_steps: 50
+  model_version: model_v000

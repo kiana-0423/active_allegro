@@ -1,0 +1,5 @@
+labeler: cp2k
+work_dir: dft_jobs
+scheduler: slurm
+cp2k_command: cp2k.popt
+template_dir: templates/cp2k

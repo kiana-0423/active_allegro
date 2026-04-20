@@ -1,0 +1,29 @@
+enabled: true
+check_interval: 10
+window_size: 20
+cutoff: 6.0
+ridge_lambda: 1.0e-6
+
+thresholds:
+  lj_residual_candidate: 0.30
+  lj_residual_stop: 0.60
+  max_force_stop: 20.0
+  min_distance_stop: 0.60
+  ensemble_deviation_candidate: 0.15
+  ensemble_deviation_stop: 0.30
+  parameter_jump_ratio: 5.0
+
+parameter_bounds:
+  epsilon_min: 1.0e-6
+  epsilon_max: 10.0
+  sigma_min: 0.5
+  sigma_max: 8.0
+
+weights:
+  lj_residual: 1.0
+  param_anomaly: 1.0
+  param_jump: 0.5
+  ensemble_deviation: 1.0
+  max_force: 0.5
+  min_distance: 0.5
+  reliability_model: 0.5

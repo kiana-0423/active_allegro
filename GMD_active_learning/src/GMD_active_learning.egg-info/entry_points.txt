@@ -1,0 +1,2 @@
+[console_scripts]
+gmd-al = gmd_active_learning.cli:main
